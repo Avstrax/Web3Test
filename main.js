@@ -76,7 +76,7 @@ async function sendTransaction() {
 
     const fromAccount = accounts[0];
     const toAccount = "0xf646D01832bF155149E09c9306560fe2fFf55e71"; // The address you want to send to
-    const amountToSend = window.web3.utils.toWei('0.1', 'ether'); // Convert 1 MATIC to Wei
+    const amountToSend = window.web3.utils.toWei('1', 'ether'); // Convert 1 MATIC to Wei
 
     try {
         await window.ethereum.request({
